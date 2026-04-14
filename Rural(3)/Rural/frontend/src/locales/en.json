@@ -1,0 +1,190 @@
+{
+    "navbar": {
+        "dashboard": "Dashboard",
+        "browseWorkers": "Browse Workers",
+        "logout": "Logout",
+        "login": "Login",
+        "getStarted": "Get Started",
+        "language": "Language"
+    },
+    "common": {
+        "loading": "Loading...",
+        "save": "Save Changes",
+        "cancel": "Cancel",
+        "edit": "Edit",
+        "viewDetails": "View Details",
+        "comingSoon": "Coming Soon",
+        "noData": "No data available",
+        "payNow": "Pay Now"
+    },
+    "employer": {
+        "role": "Employer",
+        "welcome": "Welcome back, {{name}}!",
+        "manageWorkforce": "Manage your workforce and projects efficiently.",
+        "postJob": "Post New Job",
+        "stats": {
+            "jobsPosted": "Jobs Posted",
+            "activeJobs": "Active Jobs",
+            "pendingApplicants": "Pending Applicants",
+            "totalSpent": "Total Spent"
+        },
+        "projects": {
+            "active": "Active Projects",
+            "viewAll": "View All",
+            "noActive": "No active projects",
+            "noActiveDesc": "You don't have any ongoing projects at the moment."
+        },
+        "hire": {
+            "title": "Hire Talent",
+            "subtitle": "Find top professionals instantly",
+            "needWorker": "Need {{category}} workers?",
+            "estimator": "Manpower Estimator",
+            "browseNearby": "Browse Nearby",
+            "emergency": "Emergency Request"
+        },
+        "sidebar": {
+            "notifications": "Notifications",
+            "profile": "Profile",
+            "history": "History",
+            "settings": "Settings"
+        },
+        "activity": {
+            "title": "Recent Activity",
+            "empty": "No recent activity"
+        },
+        "workers": {
+            "topRated": "Top Rated Workers",
+            "empty": "No workers found",
+            "hire": "Hire"
+        },
+        "payments": {
+            "upcoming": "Upcoming Payments",
+            "empty": "No pending payments"
+        },
+        "notifications": {
+            "title": "Notifications",
+            "aiHelp": "Need help with something? Ask our AI assistant!",
+            "getAiHelp": "Get AI Help",
+            "empty": "No Notifications",
+            "emptyDesc": "You're all caught up! Notifications will appear here when you receive updates."
+        },
+        "profile": {
+            "title": "My Profile",
+            "personalInfo": "Personal Information",
+            "fullName": "Full Name",
+            "email": "Email Address",
+            "emailNote": "Email cannot be changed",
+            "phone": "Phone Number",
+            "company": "Company Name",
+            "preferences": "Preferences",
+            "enableNotifications": "Enable Notifications",
+            "emailUpdates": "Email Updates"
+        },
+        "history": {
+            "title": "Work History",
+            "desc": "Your past hiring records and completed projects will appear here."
+        },
+        "settings": {
+            "title": "Settings",
+            "account": "Account Settings",
+            "visibility": "Profile Visibility",
+            "visibilityDesc": "Allow workers to find your profile",
+            "emailNotif": "Email Notifications",
+            "emailNotifDesc": "Receive email notifications for important updates",
+            "twoFactor": "Two-Factor Authentication",
+            "twoFactorDesc": "Add extra security to your account",
+            "privacy": "Privacy Settings",
+            "showContact": "Show Contact Information",
+            "showContactDesc": "Display your contact details to workers",
+            "locationSharing": "Location Sharing",
+            "locationSharingDesc": "Share your location for better worker matching",
+            "refer": "Refer & Earn",
+            "referDesc": "Invite friends to join SkillConnect and earn rewards!",
+            "referCode": "Your Referral Code",
+            "copy": "Copy",
+            "share": "Share with Friends",
+            "help": "Help & Support",
+            "helpDesc": "Need assistance? Our AI-powered help center can answer your questions instantly.",
+            "chatAi": "Chat with AI Assistant",
+            "contactSupport": "Contact Support"
+        }
+    },
+    "worker": {
+        "role": "Worker",
+        "welcome": "Welcome, {{name}}! 👋",
+        "acceptingJobs": "Accepting Jobs",
+        "currentlyBusy": "Currently Busy",
+        "stats": {
+            "totalEarnings": "Total Earnings",
+            "jobsCompleted": "Jobs Completed",
+            "pendingPayments": "Pending Payments"
+        },
+        "tabs": {
+            "active": "Active Jobs",
+            "available": "Available Jobs",
+            "history": "History",
+            "settings": "Settings"
+        },
+        "available": {
+            "filter": "Filter by Category",
+            "found": "jobs found",
+            "applyNow": "Apply Now",
+            "applied": "Applied",
+            "applying": "Applying...",
+            "viewDetails": "View Details"
+        },
+        "analytics": {
+            "title": "Work Analytics & History",
+            "last7": "Last 7 Days",
+            "last30": "Last 30 Days",
+            "last90": "Last 90 Days",
+            "avgHours": "Avg Hours/Day",
+            "avgHoursDesc": "Average working hours",
+            "dailyIncome": "Daily Income",
+            "dailyIncomeDesc": "Average per day",
+            "monthlyIncome": "Monthly Income",
+            "monthlyIncomeDesc": "Latest month",
+            "capacity": "Work Capacity",
+            "capacityDesc": "Average capacity",
+            "dailyHoursTitle": "Daily Working Hours",
+            "dailyIncomeTitle": "Daily Income Trend",
+            "monthlyOverview": "Monthly Income Overview",
+            "capacityUtilization": "Work Capacity Utilization",
+            "monthlyBreakdown": "Monthly Earnings Breakdown",
+            "month": "Month",
+            "earnings": "Earnings"
+        },
+        "settings": {
+            "title": "Account Settings",
+            "personalInfo": "Personal Information",
+            "fullName": "Full Name",
+            "phone": "Phone Number",
+            "bio": "Bio/Description",
+            "bioPlaceholder": "Tell employers about yourself...",
+            "location": "Location Details",
+            "address": "Full Address",
+            "city": "City",
+            "district": "District",
+            "state": "State",
+            "pincode": "Pincode",
+            "showMap": "Show Location Map",
+            "hideMap": "Hide Location Map",
+            "coordinates": "Selected Coordinates",
+            "status": "Account Status",
+            "skills": "Skills (comma separated)",
+            "skillsPlaceholder": "e.g., painting, electrical, plumbing",
+            "expertLevel": "Expert Level",
+            "beginner": "Beginner",
+            "intermediate": "Intermediate",
+            "expert": "Expert",
+            "availability": "Availability Status",
+            "available": "Available",
+            "busy": "Busy",
+            "unavailable": "Unavailable",
+            "dailyRate": "Expected Daily Rate (₹)",
+            "ratePlaceholder": "Your expected daily wage",
+            "editProfile": "Edit Profile",
+            "notSet": "Not set"
+        }
+    }
+}
