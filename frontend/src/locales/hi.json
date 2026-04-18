@@ -1,0 +1,190 @@
+{
+    "navbar": {
+        "dashboard": "डैशबोर्ड",
+        "browseWorkers": "कर्मचारियों को खोजें",
+        "logout": "लॉग आउट",
+        "login": "लॉगिन",
+        "getStarted": "शुरू करें",
+        "language": "भाषा"
+    },
+    "common": {
+        "loading": "लोड हो रहा है...",
+        "save": "परिवर्तन सहेजें",
+        "cancel": "रद्द करें",
+        "edit": "संपादित करें",
+        "viewDetails": "विवरण देखें",
+        "comingSoon": "जल्द आ रहा है",
+        "noData": "कोई डेटा उपलब्ध नहीं",
+        "payNow": "अभी भुगतान करें"
+    },
+    "employer": {
+        "role": "नियोक्ता",
+        "welcome": "वापसी पर स्वागत है, {{name}}!",
+        "manageWorkforce": "अपनी कार्यशक्ति और परियोजनाओं को कुशलतापूर्वक प्रबंधित करें।",
+        "postJob": "नई नौकरी पोस्ट करें",
+        "stats": {
+            "jobsPosted": "पोस्ट की गई नौकरियां",
+            "activeJobs": "सक्रिय नौकरियां",
+            "pendingApplicants": "लंबित आवेदक",
+            "totalSpent": "कुल खर्च"
+        },
+        "projects": {
+            "active": "सक्रिय परियोजनाएं",
+            "viewAll": "सभी देखें",
+            "noActive": "कोई सक्रिय परियोजना नहीं",
+            "noActiveDesc": "आपके पास इस समय कोई सक्रिय परियोजना नहीं है।"
+        },
+        "hire": {
+            "title": "प्रतिभा को काम पर रखें",
+            "subtitle": "तुरंत सर्वश्रेष्ठ पेशेवरों को खोजें",
+            "needWorker": "{{category}} कर्मचारियों की आवश्यकता है?",
+            "estimator": "मैनपावर अनुमानक",
+            "browseNearby": "आस-पास खोजें",
+            "emergency": "आपातकालीन अनुरोध"
+        },
+        "sidebar": {
+            "notifications": "सूचनाएं",
+            "profile": "प्रोफ़ाइल",
+            "history": "इतिहास",
+            "settings": "सेटिंग्स"
+        },
+        "activity": {
+            "title": "हाल की गतिविधि",
+            "empty": "कोई हाल की गतिविधि नहीं"
+        },
+        "workers": {
+            "topRated": "टॉप रेटेड कर्मचारी",
+            "empty": "कोई कर्मचारी नहीं मिला",
+            "hire": "हायर करें"
+        },
+        "payments": {
+            "upcoming": "आने वाले भुगतान",
+            "empty": "कोई लंबित भुगतान नहीं"
+        },
+        "notifications": {
+            "title": "सूचनाएं",
+            "aiHelp": "कुछ मदद चाहिए? हमारे AI सहायक से पूछें!",
+            "getAiHelp": "AI सहायता प्राप्त करें",
+            "empty": "कोई सूचना नहीं",
+            "emptyDesc": "कोई नई सूचना नहीं है! अपडेट मिलने पर यहां दिखाई देंगे।"
+        },
+        "profile": {
+            "title": "मेरी प्रोफ़ाइल",
+            "personalInfo": "व्यक्तिगत जानकारी",
+            "fullName": "पूरा नाम",
+            "email": "ईमेल पता",
+            "emailNote": "ईमेल नहीं बदला जा सकता",
+            "phone": "फ़ोन नंबर",
+            "company": "कंपनी का नाम",
+            "preferences": "प्राथमिकताएं",
+            "enableNotifications": "सूचनाएं सक्षम करें",
+            "emailUpdates": "ईमेल अपडेट"
+        },
+        "history": {
+            "title": "कार्य इतिहास",
+            "desc": "आपके पिछले नियुक्ति रिकॉर्ड और पूरी की गई परियोजनाएं यहां दिखाई देंगी।"
+        },
+        "settings": {
+            "title": "सेटिंग्स",
+            "account": "खाता सेटिंग्स",
+            "visibility": "प्रोफ़ाइल दृश्यता",
+            "visibilityDesc": "कर्मचारियों को आपकी प्रोफ़ाइल खोजने की अनुमति दें",
+            "emailNotif": "ईमेल सूचनाएं",
+            "emailNotifDesc": "महत्वपूर्ण अपडेट के लिए ईमेल सूचनाएं प्राप्त करें",
+            "twoFactor": "टू-फैक्टर ऑथेंटिकेशन",
+            "twoFactorDesc": "अपने खाते में अतिरिक्त सुरक्षा जोड़ें",
+            "privacy": "गोपनीयता सेटिंग्स",
+            "showContact": "संपर्क जानकारी दिखाएं",
+            "showContactDesc": "कर्मचारियों को अपना संपर्क विवरण प्रदर्शित करें",
+            "locationSharing": "स्थान साझाकरण",
+            "locationSharingDesc": "बेहतर कर्मचारी मिलान के लिए अपना स्थान साझा करें",
+            "refer": "रेफर एंड अर्न",
+            "referDesc": "SkillConnect में शामिल होने के लिए दोस्तों को आमंत्रित करें और पुरस्कार जीतें!",
+            "referCode": "आपका रेफरल कोड",
+            "copy": "कॉपी",
+            "share": "दोस्तों के साथ साझा करें",
+            "help": "सहायता और सहायता",
+            "helpDesc": "सहायता चाहिए? हमारा AI-संचालित सहायता केंद्र आपके सवालों का तुरंत जवाब दे सकता है।",
+            "chatAi": "AI सहायक के साथ चैट करें",
+            "contactSupport": "सहायता से संपर्क करें"
+        }
+    },
+    "worker": {
+        "role": "कर्मचारी",
+        "welcome": "स्वागत है, {{name}}! 👋",
+        "acceptingJobs": "नौकरी स्वीकार कर रहे हैं",
+        "currentlyBusy": "अभी व्यस्त हैं",
+        "stats": {
+            "totalEarnings": "कुल कमाई",
+            "jobsCompleted": "पूरी की गई नौकरियां",
+            "pendingPayments": "लंबित भुगतान"
+        },
+        "tabs": {
+            "active": "सक्रिय नौकरियां",
+            "available": "उपलब्ध नौकरियां",
+            "history": "इतिहास",
+            "settings": "सेटिंग्स"
+        },
+        "available": {
+            "filter": "श्रेणी के अनुसार फ़िल्टर करें",
+            "found": "नौकरियां मिलीं",
+            "applyNow": "अभी आवेदन करें",
+            "applied": "आवेदन किया गया",
+            "applying": "आवेदन हो रहा है...",
+            "viewDetails": "विवरण देखें"
+        },
+        "analytics": {
+            "title": "कार्य विश्लेषण और इतिहास",
+            "last7": "पिछले 7 दिन",
+            "last30": "पिछले 30 दिन",
+            "last90": "पिछले 90 दिन",
+            "avgHours": "औसत घंटे/दिन",
+            "avgHoursDesc": "औसत कार्य घंटे",
+            "dailyIncome": "दैनिक आय",
+            "dailyIncomeDesc": "प्रति दिन औसत",
+            "monthlyIncome": "मासिक आय",
+            "monthlyIncomeDesc": "नवीनतम महीना",
+            "capacity": "कार्य क्षमता",
+            "capacityDesc": "औसत क्षमता",
+            "dailyHoursTitle": "दैनिक कार्य घंटे",
+            "dailyIncomeTitle": "दैनिक आय प्रवृत्ति",
+            "monthlyOverview": "मासिक आय अवलोकन",
+            "capacityUtilization": "कार्य क्षमता उपयोग",
+            "monthlyBreakdown": "मासिक कमाई का विवरण",
+            "month": "महीना",
+            "earnings": "कमाई"
+        },
+        "settings": {
+            "title": "खाता सेटिंग्स",
+            "personalInfo": "व्यक्तिगत जानकारी",
+            "fullName": "पूरा नाम",
+            "phone": "फ़ोन नंबर",
+            "bio": "बायो/विवरण",
+            "bioPlaceholder": "नियोक्ताओं को अपने बारे में बताएं...",
+            "location": "स्थान विवरण",
+            "address": "पूरा पता",
+            "city": "शहर",
+            "district": "जिला",
+            "state": "राज्य",
+            "pincode": "पिनकोड",
+            "showMap": "स्थान मानचित्र दिखाएं",
+            "hideMap": "स्थान मानचित्र छुपाएं",
+            "coordinates": "चयनित निर्देशांक",
+            "status": "खाता स्थिति",
+            "skills": "कौशल (कोमा से अलग)",
+            "skillsPlaceholder": "जैसे, पेंटिंग, इलेक्ट्रिकल, प्लंबिंग",
+            "expertLevel": "विशेषज्ञ स्तर",
+            "beginner": "शुरुआती",
+            "intermediate": "मध्यम",
+            "expert": "विशेषज्ञ",
+            "availability": "उपलब्धता स्थिति",
+            "available": "उपलब्ध",
+            "busy": "व्यस्त",
+            "unavailable": "अनुपलब्ध",
+            "dailyRate": "अपेक्षित दैनिक दर (₹)",
+            "ratePlaceholder": "आपका अपेक्षित दैनिक वेतन",
+            "editProfile": "प्रोफ़ाइल संपादित करें",
+            "notSet": "निर्धारित नहीं"
+        }
+    }
+}

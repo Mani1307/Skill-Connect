@@ -1,0 +1,374 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+  background-color: #f0f2f5;
+}
+
+.auth-card {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Admin Credentials Styles */
+.admin-credentials {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border: 2px solid #5a67d8;
+}
+
+.admin-credentials h4 {
+  margin: 0 0 15px 0;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.credentials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.credential-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.credential-item strong {
+  color: #ffd700;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.credentials-note {
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+  opacity: 0.9;
+  font-style: italic;
+  font-size: 0.85rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #4a5568;
+}
+
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.auth-btn:hover {
+  background-color: #2980b9;
+}
+
+.error-message {
+  background-color: #fed7d7;
+  color: #c53030;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.success-message {
+  background-color: #c6f6d5;
+  color: #2f855a;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.auth-subtitle {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 25px;
+  color: #718096;
+  font-size: 0.95rem;
+}
+
+.auth-footer {
+  margin-top: 25px;
+  text-align: center;
+  border-top: 1px solid #edf2f7;
+  padding-top: 20px;
+}
+
+.auth-footer p {
+  margin: 8px 0;
+}
+
+.auth-card p {
+  text-align: center;
+  color: #718096;
+}
+
+.auth-card a {
+  color: #3498db;
+  font-weight: 500;
+}
+
+.form-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.back-btn {
+  flex: 1;
+  padding: 12px;
+  background-color: #95a5a6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #7f8c8d;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.skill-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.skill-checkbox:hover {
+  background: #f7fafc;
+  border-color: #3498db;
+}
+
+.skill-checkbox input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+}
+
+.skill-checkbox span {
+  text-transform: capitalize;
+  font-size: 0.9rem;
+}
+
+/* Progress Indicator */
+.progress-indicator {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.progress-step {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #718096;
+  transition: all 0.3s;
+}
+
+.progress-step.active {
+  background: #3498db;
+  color: white;
+}
+
+/* Email Verification */
+.email-verification {
+  display: flex;
+  gap: 10px;
+}
+
+.email-verification input {
+  flex: 1;
+}
+
+.send-otp-btn, .verify-otp-btn, .resend-otp-btn {
+  padding: 10px 15px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.send-otp-btn:disabled {
+  background: #cbd5e0;
+  cursor: not-allowed;
+}
+
+.verify-otp-btn:hover, .send-otp-btn:not(:disabled):hover {
+  background: #2980b9;
+}
+
+.resend-otp-btn {
+  background: #f39c12;
+  margin-top: 10px;
+}
+
+.resend-otp-btn:hover {
+  background: #e67e22;
+}
+
+.verified-badge {
+  padding: 10px 15px;
+  background: #27ae60;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+/* OTP Section */
+.otp-section {
+  margin-top: 15px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.otp-timer {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #e74c3c;
+}
+
+.otp-input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.otp-input {
+  flex: 1;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+}
+
+/* Form Row */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+/* Review Section */
+.review-section {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.review-section h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.review-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.review-item:last-child {
+  border-bottom: none;
+}
+
+.review-item strong {
+  color: #4a5568;
+  display: inline-block;
+  width: 120px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .auth-card {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .email-verification {
+    flex-direction: column;
+  }
+  
+  .otp-input-container {
+    flex-direction: column;
+  }
+  
+  .form-actions {
+    flex-direction: column;
+  }
+  
+  .review-item strong {
+    width: auto;
+    display: block;
+    margin-bottom: 5px;
+  }
+}
