@@ -1,0 +1,24 @@
+{
+  "name": "skillconnect",
+  "version": "1.0.0",
+  "description": "Platform connecting daily wage workers with employers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev-all": "concurrently \"npm run dev\" \"npm run client\"",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages-d dist"
+  },
+  "keywords": [
+    "mern",
+    "workers",
+    "jobs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.4"
+  }
+}
